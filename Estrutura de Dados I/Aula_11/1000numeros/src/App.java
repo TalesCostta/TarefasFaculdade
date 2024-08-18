@@ -4,8 +4,8 @@ public class App {
         ListaDupla listaD = new ListaDupla();
         int [] vetor = new int[1000];
 
-        for(int i = 0; i<100; i++){
-            int randomNumber=(int)((Math.random() * 9999) - 4545);
+        for(int i = 0; i < 100; i++){
+            int randomNumber = (int)((Math.random() * 19998) - 9999);
             vetor[i] = randomNumber;
         }
 
